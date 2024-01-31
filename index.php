@@ -32,11 +32,11 @@ $corePagePath = __DIR__ . "/engine/pages/{$page}.php";
 
 // $corePagePath = __DIR__ . "/core/{$page}/main.php";
 
-// if ($debugSetting) {
+ if ($debugSetting) {
     echo "Template Path: {$templatePath}<br>"; // Debug: Check the path to the page
     echo "Core Page Path: {$corePagePath}<br>"; // Debug: Check the path to the core page
     echo "Requested URI: {$requestUri}<br>"; // Debug: Output the requested URI
-// }
+ }
 
 
 
